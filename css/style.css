@@ -33,7 +33,7 @@ footer
 p
 {
 text-align: left;
-font-size: 14px;
+font-size: 16px;
 }
 
 header,
@@ -60,7 +60,7 @@ nav,
 aside
 {
   width: 20%;
-  height: 600px;
+  min-height: 600px;
   
 }
 
@@ -69,6 +69,7 @@ section
   float: left;
   width: calc(60% - 100px);
   margin: 0 50px 50px 50px;
+  min-height: 600px;
   
 }
 
@@ -109,6 +110,8 @@ nav
 aside
 {
   float: right;
+  padding: 50px 30px 50px 30px;
+  font-size: 20px;
 }
 
 nav ul
