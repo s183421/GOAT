@@ -30,6 +30,14 @@ footer
   padding: 30px;
 }
 
+input,
+textarea
+{
+  color: black;
+  font-size: 14px;
+  width: 400px;
+}
+
 p
 {
 text-align: left;
