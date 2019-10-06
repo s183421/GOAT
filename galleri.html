@@ -6,6 +6,7 @@
     <meta name="keywords" content="utbildning,högskola,webbplats">
     <meta name="author" content="Teodor Gordon">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>GOAT - Greatest of all Time</title>
 </head>
@@ -21,7 +22,7 @@
 
     <nav>
         <!--Sido panel-->
-        <a href="index.html">
+        <a href="#home">
             <div class="sidebar">Home</div>
         </a>
         <a href="contact.html">
@@ -34,31 +35,62 @@
             <div class="sidebar">Apply</div>
         </a>
         <a href="stream.html">
-            <div class="sidebar" style="background-color: #666666;"> Stream</div>
+            <div class="sidebar">Stream</div>
         </a>
         <a href="galleri.html">
-            <div class="sidebar">Galleri</div>
+            <div class="sidebar" style="background-color: #666666;"> Galleri</div>
         </a>
     </nav>
 
     <section>
         <!--Mittendelen-->
-        <h1>Stream</h1>
+        <h1> Galleri </h1>
         <article>
-            <h2>Almightyrabz</h2>
-            <iframe src="https://player.twitch.tv/?channel=officialbrunotv" frameborder="0" allowfullscreen="true"
-                scrolling="no" height="500" width="100%"></iframe><a
-                href="https://www.twitch.tv/officialbrunotv?tt_content=text_link&tt_medium=live_embed"
-                style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Titta
-                på livevideo från officialbrunotv på www.twitch.tv</a>
-            <hr>
-            <h2>Liljaps</h2>
-            <iframe src="https://player.twitch.tv/?channel=thecoachn" frameborder="0" allowfullscreen="true"
-                scrolling="no" height="500" width="100%"></iframe><a
-                href="https://www.twitch.tv/thecoachn?tt_content=text_link&tt_medium=live_embed"
-                style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Titta
-                på livevideo från thecoachn på www.twitch.tv</a>
+            <h2>Bilder</h2>
+            <div class="slideshow-container">
+                
+                <!-- Full-width images with number and caption text -->
+                <div id="slide1" class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="images/WoWScrnShot_100219_141539.jpg" style="width:100%">
+                  <div class="text">Rhok'delar</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="images/OnyGoat.png" style="width:100%">
+                  <div class="text">Onyxia Down</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="images/WoWScrnShot_100119_230840.jpg" style="width:100%">
+                  <div class="text">Ragnaros</div>
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+
+
+
+
+
+
+
+
+
         </article>
+        
         <!-- <footer> sid-fot artikel </footer> -->
     </section>
 
